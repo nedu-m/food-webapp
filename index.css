@@ -1,0 +1,102 @@
+html,body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background: rgb(134, 56, 134) ;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 20px !important;
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.5);
+}
+
+
+.nav-link {
+  margin-right: 2em !important;
+  text-align: center;
+  color: rgb(5, 212, 5);
+  letter-spacing: 1px;
+  font-family:'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: greenyellow;
+  border-radius: 7px;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.custom-toggler.navbar-toggler {
+border-color: rgb(60, 219, 54);
+}
+
+.custom-toggler .navbar-toggler-icon {
+background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
+
+.container-fluid {
+  font-family: sans-serif;
+  letter-spacing: 0.3px;
+  font-size: large;
+}
+
+.titles {
+  padding: 20px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid green;
+  background-color: rgb(244, 240, 247);
+  border-radius: 6px;
+}
+
+.divider {
+  width: 10%;
+}
+
+.bg {
+  height: 0.1%;
+  background-color: rgb(196, 168, 211);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+#text {
+  resize: none;
+}
+
+.footer-social-links {
+  background-color: rgb(134, 56, 134);
+  overflow: hidden;
+  height: 100px;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 40px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #9b1ace;
+  color: white;
+}
+
+

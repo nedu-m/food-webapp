@@ -1,2 +1,3 @@
 # foodwebsite
- an online food website
+
+ an online food website, *fully responsive.*
